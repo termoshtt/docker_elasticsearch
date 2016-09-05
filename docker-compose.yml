@@ -1,0 +1,7 @@
+elasticsearch:
+  image: termoshtt/elasticsearch
+  volumes:
+    - /srv/docker/esdata:/usr/share/elasticsearch/data
+  ports:
+    - 9200:9200
+  container_name: elasticsearch
