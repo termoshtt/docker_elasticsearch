@@ -1,7 +1,7 @@
 elasticsearch:
   image: elasticsearch
   volumes:
-    - /docker/esdata:/usr/share/elasticsearch/data
+    - /opt/elasticsearch/data:/usr/share/elasticsearch/data
   ports:
     - 9200:9200
     - 9300:9300
